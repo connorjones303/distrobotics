@@ -9,6 +9,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as socket_ipv4:
     # config max sockets
     socket_ipv4.listen(5)
 
+    print('starting socket on 0.0.0.0 4000')
+
     # main loop
     while True:
 
